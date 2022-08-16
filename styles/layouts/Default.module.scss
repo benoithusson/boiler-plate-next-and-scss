@@ -1,0 +1,7 @@
+@import '../base/_utilities.scss';
+
+.page_wrapper {
+    @extend .container-centered;
+    @extend .container-px;
+    min-height: 100vh;
+}
